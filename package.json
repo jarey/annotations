@@ -16,6 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "pdf-annotate": "0.0.0",
+    "pdfjs-dist": "^1.5.385",
     "react": "15.3.0",
     "react-dom": "15.3.0"
   },
