@@ -40,7 +40,7 @@ export class PDFable extends React.Component {
 
   render() {
     return (
-      <div id="pdfview"></div>
+      <canvas id="pdfview"></canvas>
     );
   }
 }
