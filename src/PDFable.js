@@ -2,7 +2,7 @@ import React from 'react';
 import PDFJS from 'pdfjs-dist';
 import PDFJSAnnotate from 'pdf-annotate';
 
-const testPDF = '../static/feasibility-study.pdf';
+// const testPDF = '../static/feasibility-study.pdf';
 
 const { UI } = PDFJSAnnotate;
 const RENDER_OPTIONS = {
@@ -19,7 +19,7 @@ export class PDFable extends React.Component {
   }
 
   componentDidMount() {
-    PDFJS.getDocument('../static/feasibility-study.pdf').then((pdf) => {
+    PDFJS.getDocument('concept-design.pdf').then((pdf) => {
       pdf.getPage(1).then((page) => {
         let scale = 1.5;
         let viewport = page.getViewport(scale);

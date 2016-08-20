@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --progress --profile --colors",
     "lint": "eslint --ext js --ext jsx src || exit 0",
-    "storybook": "start-storybook -p 9001"
+    "storybook": "start-storybook -p 9001 -s ./public"
   },
   "repository": {
     "type": "git",
