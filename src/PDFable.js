@@ -1,13 +1,12 @@
 import React from 'react';
-// import PDFJSAnnotate from 'pdfjs-annotate';
-//
-// const { UI } = PDFJSAnnotate;
-// const RENDER_OPTIONS = {
-//   documentId: 'MyPDF.pdf',
-//   pdfDocument: null,
-//   scale: 1,
-//   rotate: 0
-// };
+import PDFJSAnnotate from 'pdf-annotate';
+
+const { UI } = PDFJSAnnotate;
+const RENDER_OPTIONS = {
+  pdfDocument: null,
+  scale: 1,
+  rotate: 0
+};
 
 export class PDFable extends React.Component {
   constructor(props) {
